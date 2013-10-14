@@ -1,4 +1,2 @@
-sass.vs.less
+<h1>Differences in SASS &amp; LESS</h1>
 ============
-
-Differences in SASS &amp; LESS
