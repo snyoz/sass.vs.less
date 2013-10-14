@@ -1,6 +1,5 @@
 <h1>Differences in SASS &amp; LESS</h1>
 ============
-
 <ol>
   <li>VARIABLES</li>
   <li>NESTED SELECTORS</li>
@@ -14,9 +13,9 @@
   <li>NAMESPACES</li>
 <ol>
 
-<p><strong>Note:</strong> The following SASS Examples are used in SCSS Syntax</p>
+<p><strong>Note:</strong> The following SASS Examples below are shown in SCSS Syntax</p>
 
-<h2>VARIABLES</h2>
+<h2>1.VARIABLES</h2>
 <p>SASS USES: <strong>$</strong></p>
 <p>LESS USES: <strong>@</strong></p>
 
@@ -50,4 +49,64 @@ $color: black;                           |  @color: black;
   //SASS = white (overwritten by local)  |   // LESS = black (global)
   color: $color;                         |   color: @color;
 }                                        |  }
+</pre>
+
+<h2>Nested Selectors</h2>
+<p>The example below shows that there is <strong>no difference</strong> in nesting.</p>
+<pre>
+  Sass             | Less
+-------------------+-----------------
+p {                | p {
+  a {              |   a {
+    color: red;    |     color: red;
+    &:hover {      |     &:hover {
+      color: blue; |       color: blue;
+    }              |     }
+  }                |   }
+}                  | }
+</pre>
+
+<h2>Mixins</h2>
+<pre>
+Sass                              | Less
+----------------------------------+----------------------------------
+@mixin bordered {                 | .bordered() {
+  border-top: dotted 1px black;   |   border-top: dotted 1px black;
+  border-bottom: solid 2px black; |   border-bottom: solid 2px black;
+}                                 | }
+                                  | 
+#menu a {                         | #menu a {
+  @include bordered;              |   .bordered;
+}     
+</pre>
+<p><strong>Note:</strong></p>
+<p>A Class with an empty argument " () " will be used as mixin in LESS. That means that they will not be compiled into the .css if they are not in use. Advantage: It is also possible to use normal classes as mixins.</p>
+
+<h2>DYNAMIC MIXINS (with Arguments)</h2>
+<pre>
+Sass                              | Less
+----------------------------------+----------------------------------
+@mixin bordered($width: 2px) {    | .bordered(@width: 2px) {
+  border: $width solid black;     |   border: @width solid black;
+}                                 | }
+                                  | 
+#menu a {                         | #menu a {
+  @include bordered(4px);         |   .bordered(4px);
+}                                 | }
+</pre>
+
+<h2>Selector Inheritance</h2>
+<pre>
+Sass                        | Less (since 1.4.0)          | CSS Output
+----------------------------+-------+---------------------------------------------------
+.bordered {                 | .bordered {                 | .bordered, #menu a {
+  border: 1px solid back;   |   border: 1px solid back;   |   border: 1px solid back;
+}                           |  }                          |  }
+                            |                             |
+#menu a {                   | #menu a {                   |
+  @extend .bordered;        |   &:extend(.bordered);      |
+}                           | }                           |
+                            |  // OR USE IT THIS WAY:     | 
+                            | #menu a:extend(.bordered) { | 
+                            | }
 </pre>
