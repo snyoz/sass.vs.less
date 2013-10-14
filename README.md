@@ -51,7 +51,7 @@ $color: black;                           |  @color: black;
 }                                        |  }
 </pre>
 
-<h2>Nested Selectors</h2>
+<h2>2.Nested Selectors</h2>
 <p>The example below shows that there is <strong>no difference</strong> in nesting.</p>
 <pre>
   Sass             | Less
@@ -66,7 +66,7 @@ p {                | p {
 }                  | }
 </pre>
 
-<h2>Mixins</h2>
+<h2>3.Mixins</h2>
 <pre>
 Sass                              | Less
 ----------------------------------+----------------------------------
@@ -82,7 +82,7 @@ Sass                              | Less
 <p><strong>Note:</strong></p>
 <p>A Class with an empty argument " () " will be used as mixin in LESS. That means that they will not be compiled into the .css if they are not in use. Advantage: It is also possible to use normal classes as mixins.</p>
 
-<h2>DYNAMIC MIXINS (with Arguments)</h2>
+<h2>4.DYNAMIC MIXINS (with Arguments)</h2>
 <pre>
 Sass                              | Less
 ----------------------------------+----------------------------------
@@ -95,7 +95,7 @@ Sass                              | Less
 }                                 | }
 </pre>
 
-<h2>Selector Inheritance</h2>
+<h2>5.Selector Inheritance</h2>
 <pre>
 Sass                        | Less (since 1.4.0)          | CSS Output
 ----------------------------+-------+---------------------------------------------------
