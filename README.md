@@ -98,7 +98,7 @@ Sass                              | Less
 <h2>5.Selector Inheritance</h2>
 <pre>
 Sass                        | Less (since 1.4.0)          | CSS Output
-----------------------------+-------+---------------------------------------------------
+----------------------------+-----------------------------+---------------------------
 .bordered {                 | .bordered {                 | .bordered, #menu a {
   border: 1px solid back;   |   border: 1px solid back;   |   border: 1px solid back;
 }                           |  }                          |  }
