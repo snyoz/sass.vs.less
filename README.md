@@ -32,7 +32,8 @@ body {                   | body {
 }                        | }
 </pre>
 
-<p><strong>SCOPING NOTE:</strong></br>SASS is using the var scoping of ruby. Less is using JavaScript Scoping. In future updates of SASS you will be able to change the scoping with special declarations.</p>
+<p><strong>SCOPING NOTE:</strong></p>
+<p>SASS is using the var scoping of ruby. Less is using JavaScript Scoping. In future updates of SASS you will be able to change the scoping with special declarations.</p>
 
 <strong>EXAMPLE:</strong>
 <pre>
