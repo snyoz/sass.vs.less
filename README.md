@@ -36,8 +36,8 @@ body {                   | body {
 
 <strong>EXAMPLE:</strong>
 <pre>
-Sass                     | Less
--------------------------+-----------------
+Sass                                     | Less
+-----------------------------------------+-----------------
 $color: black;                           |  @color: black;
                                          |
 .scoped {                                |  .scoped {  
