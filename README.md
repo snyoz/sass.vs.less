@@ -1,19 +1,19 @@
 <h1>Differences in SASS &amp; LESS</h1>
 ============
 <ol>
-  <li>1.VARIABLES</li>
-  <li>2.NESTED SELECTORS</li>
-  <li>3.MIXINS</li>
-  <li>4.DYNAMIC MIXINS (with Arguments)</li>
-  <li>5.SELECTOR INHERITANCE</li>
-  <li>6.COLOR FUNCTIONS</li>
-  <li>7.HANDLING WITH NUMBERS</li>
-  <li>8.FUNCTIONS & LOOP CONDITIONALS</li>
-  <li>9.MEDIA QUERIES</li>
-  <li>10.NAMESPACES</li>
-  <li>11.SERVER SIDE IMPORTS</li>
-  <li>12.OUTPUT FORMATTING</li>
-  <li>13.COMMENTS</li>
+  <li>VARIABLES</li>
+  <li>NESTED SELECTORS</li>
+  <li>MIXINS</li>
+  <li>DYNAMIC MIXINS (with Arguments)</li>
+  <li>SELECTOR INHERITANCE</li>
+  <li>COLOR FUNCTIONS</li>
+  <li>HANDLING WITH NUMBERS</li>
+  <li>FUNCTIONS & LOOP CONDITIONALS</li>
+  <li>MEDIA QUERIES</li>
+  <li>NAMESPACES</li>
+  <li>SERVER SIDE IMPORTS</li>
+  <li>OUTPUT FORMATTING</li>
+  <li>COMMENTS</li>
 <ol>
 
 <p><strong>Note:</strong> The following SASS Examples below are shown in SCSS Syntax</p>
