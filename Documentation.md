@@ -16,7 +16,7 @@
   <li>COMMENTS</li>
 </ol>
 
-<p><strong>Note:</strong> The following SASS Examples below are shown in SCSS Syntax</p>
+<p><strong>Note:</strong> The following SASS Examples below are shown in <code>.SCSS</code> Syntax</p>
 
 <h2>1.VARIABLES</h2>
 <p>SASS USES: <code>$</code></p>
