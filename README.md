@@ -14,7 +14,7 @@
   <li>SERVER SIDE IMPORTS</li>
   <li>OUTPUT FORMATTING</li>
   <li>COMMENTS</li>
-<ol>
+</ol>
 
 <p><strong>Note:</strong> The following SASS Examples below are shown in SCSS Syntax</p>
 
@@ -119,7 +119,7 @@ Sass                        | Less (since 1.4.0)          | CSS Output
 <strong>Note:</strong>
 <p>Both SASS & LESS provide similar color functions</p>
 <p><a href="http://sass-lang.com/documentation/Sass/Script/Functions.html">See all in <strong>SASS</strong></a></p>
-<p><a href="http://lesscss.org/#reference"><strong>See all in LESS</strong></a></p>
+<p><a href="http://lesscss.org/#reference">See all in <strong>LESS</strong></a></p>
 
 <p><strong>Accessors:</strong></p>
 <ul>
