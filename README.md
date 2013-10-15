@@ -118,10 +118,10 @@ Sass                        | Less (since 1.4.0)          | CSS Output
 
 <strong>Note:</strong>
 <p>Both SASS & LESS provide similar color functions</p>
-<a href="http://sass-lang.com/documentation/Sass/Script/Functions.html">See all in <strong>SASS</strong></a>
-<a href="http://lesscss.org/#reference"><strong>See all in LESS</strong></a>
+<p><a href="http://sass-lang.com/documentation/Sass/Script/Functions.html">See all in <strong>SASS</strong></a></p>
+<p><a href="http://lesscss.org/#reference"><strong>See all in LESS</strong></a></p>
 
-<strong>Accessors:</strong>
+<p><strong>Accessors:</strong></p>
 <ul>
 	<li><code>red($color)</code></li>
 	<li><code>green($color)</code></li>
@@ -132,7 +132,7 @@ Sass                        | Less (since 1.4.0)          | CSS Output
 	<li><code>alpha($color)</code></li>
 </ul>
 
-<strong>Mutators:</strong>
+<p><strong>Mutators:</strong></p>
 <ul>
 	<li><code>lighten($color, $amount)</code></li>
 	<li><code>darken($color, $amount)</code></li>
