@@ -203,7 +203,7 @@ Sass                        | Less (since 1.4.0)          | CSS Output
 .mixin (@color) when (lightness(@color) > 30%) {
   background-color: black;
 }
-.mixin (@color) when (lightness(@color) =< 30%) {
+.mixin (@color) when (lightness(@color) = 30%) {
   background-color: white;
 }
 </pre>
