@@ -291,6 +291,7 @@ aside {
 </pre>
 
 <p><strong>Note:</strong> Let's do it similar with <code>LESS</code>:</p>
+<p><em>Update by @helgri</em></p>
 <pre>
 @small-screen: ~"only screen and (min-width:320px)";
 @large-screen: ~"only screen and (min-width:960px)";
