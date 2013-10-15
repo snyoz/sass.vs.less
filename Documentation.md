@@ -212,7 +212,7 @@ Sass                        | Less (since 1.4.0)          | CSS Output
 <pre>
 $emotions: happy sad excited mustached;
 @each $emotion in $emotions {
-	.feeling-#{emotion} {
+	.feeling-#{$emotion} {
 	background-image:
 	url("images/feeling-#{$emotion}");
 	}
