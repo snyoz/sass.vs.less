@@ -150,7 +150,7 @@ Sass                        | Less (since 1.4.0)          | CSS Output
 
 <p>Christ Eppstein said that SASS supports "supports unit-based arithmetic": Complex units are supported in any intermediate form and will only raise an error if you try to print out the value of a complex unit.</p>
 <p>Sass will let you define your own units and will happily print out unknown units into your css. Less will not. Sass does this as a form of future proofing against changes in the w3c specification or in case a browser introduces a non-standard unit.</p>
-<p>SASS</p>
+<p>SASS:</p>
 <pre>
 1cm * 1em => 1 cm * em
 2in * 3in => 6 in * in
@@ -158,7 +158,7 @@ Sass                        | Less (since 1.4.0)          | CSS Output
 2in + 3cm + 2pc => 3.514in
 3in / 2in => 1.5
 </pre>
-<p>LESS</p>
+<p>LESS:</p>
 <pre>
 1cm * 1em => Error
 2in * 3in => 6in
