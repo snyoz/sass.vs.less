@@ -290,6 +290,19 @@ aside {
 }
 </pre>
 
+<p><strong>Note:</strong> Let's do it similar with <code>LESS</code>:</p>
+<pre>
+@small-screen: ~"only screen and (min-width:320px)";
+@large-screen: ~"only screen and (min-width:960px)";
+
+aside{
+    width: 25%;
+    @media @small-screen {
+        width: 100%;
+    }
+}
+</pre>
+
 <h2>10.Namespaces</h2>
 <p><strong>Note:</strong></p>
 <p>Less provides the feature of Namespaces that SASS can't do. The founder of SASS considered this feature and decided that adding it would create fragility and unexpected interconnectedness.</p>
