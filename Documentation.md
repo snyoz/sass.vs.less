@@ -35,7 +35,7 @@ body {                   | body {
 </pre>
 
 <p><strong>SCOPING NOTE:</strong></p>
-<p>SASS is using the var scoping of ruby. Less is using JavaScript Scoping. In future updates of SASS you will be able to change the scoping with special declarations.</p>
+<p>Atm SASS is using the global scoping only. Less is designed of scoping by default and uses global and loacal variables. In future updates of SASS you will be able to change the scoping with special declarations.</p>
 
 <strong>EXAMPLE:</strong>
 <pre>
