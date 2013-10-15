@@ -333,7 +333,7 @@ aside {
 	<li><code>expanded</code></li>
 </ul>
 
-<h2>12.Comments</h2>
+<h2>13.Comments</h2>
 <p>Both Support C-Style (<code>/* */</code>) and C++ Style Comments (<code>//</code>) </p>
 
 
