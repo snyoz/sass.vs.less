@@ -85,7 +85,7 @@ Sass                              | Less
 <p><strong>Note:</strong></p>
 <p>A Class with an empty argument " () " will be used as mixin in LESS. That means that they will not be compiled into the .css if they are not in use. Advantage: It is also possible to use normal classes as mixins.</p>
 
-<h2>4.DYNAMIC MIXINS (with Arguments)</h2>
+<h2>4.Dynamic Mixins (with Arguments)</h2>
 <pre>
 Sass                              | Less
 ----------------------------------+----------------------------------
