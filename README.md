@@ -305,7 +305,7 @@ aside {
   #bundle > .red;
 }
 </pre>
-<p>It outputs in compiled <strong>CSS</strong></p>
+<p>In compiled <strong>CSS</strong>:</p>
 <pre>
 .foo {
   background-color: red;
