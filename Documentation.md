@@ -45,7 +45,7 @@ $color: black;                           |  @color: black;
                                          |
 .scoped {                                |  .scoped {  
   $color: white;                         |    @color: white;
-  color: $color;                         |    color: $color;
+  color: $color;                         |    color: @color;
 }                                        |  }  
                                          |
 .unscoped {                              |  .unscoped {
